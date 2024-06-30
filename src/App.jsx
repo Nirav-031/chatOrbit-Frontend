@@ -40,7 +40,7 @@ function App() {
 
      <BrowserRouter>
         <Routes>
-          <Route path='/login' element={<Login />}></Route>
+          <Route path='/' element={<Login />}></Route>
           <Route path='/registration' element={<Registration />}></Route>
             <Route path='app' element={<MainContainer />}>
               <Route path='chat' element={<Chat />}></Route>

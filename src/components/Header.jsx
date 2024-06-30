@@ -28,7 +28,7 @@ function Header() {
                     dispatch(setAuthUser(null)),
                     dispatch(setSelectedUser(null)),
                     dispatch(setMessageSlice(false)),
-                    dispatch(setSocket(null)), navigate('/login')]);
+                    dispatch(setSocket(null)), navigate('/')]);
           }
         })
             .catch((err) =>

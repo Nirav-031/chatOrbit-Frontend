@@ -16,7 +16,7 @@ function MainContainer() {
  
   useEffect(() => {
     if (!login) {
-    navigate('/login');
+    navigate('/');
   }
   }, []);
   return (

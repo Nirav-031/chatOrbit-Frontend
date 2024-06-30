@@ -88,7 +88,7 @@ const Registration = () =>
                         setTimeout(()=>setLoading(true),1000);
                         setTimeout(() => {
                             setLoading(false);
-                            navigate('/login')
+                            navigate('/')
                         }, 2000)
                         
                     }, 1000)
