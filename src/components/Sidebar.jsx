@@ -157,8 +157,8 @@ function Sidebar() {
             conversation.length > 0 ? 
               conversation.map((data) => {
                 return <div key={data._id} className={`h-20  lg:h-20 w-[90%] md:w-full  rounded-lg  m-auto mt-2 flex hover:bg-slate-200 hover:cursor-pointer ${selectedUser?._id == data?._id ? `bg-slate-300` : `bg-slate-100`}`} onClick={() => { dispatch(setSelectedUser(data)); navigate('chat') }}>
-                  <div className='w-full rounded-lg md:rounded-e-none md:w-[30%] lg:-[20%] h-full flex justify-center items-center  p-2' >
-                    <div className='w-16 h-16 rounded-full lg:ml-[-10px] ' >
+                  <div className='w-full rounded-lg md:rounded-e-none md:w-[30%]  h-full flex justify-center items-center  p-2' >
+                    <div className='w-full  md:w-16 md:h-16 rounded-full lg:ml-[-10px] ' >
                          <img src={data.photo1.url} alt=""   className='w-full h-full object-cover rounded-full'/>    
                     </div>
                     </div>

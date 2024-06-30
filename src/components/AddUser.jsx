@@ -47,7 +47,7 @@ function AddUser({ isOpen, onClose }) {
                         // console.log("result",result);
                         setUsers(result.data);
                         setLoading(false);
-                        console.log("users",result.data   );
+                        // console.log("users",result.data   );
                     }
                     })
                 .catch((err) =>null
@@ -135,8 +135,8 @@ function AddUser({ isOpen, onClose }) {
                                                 <img src={data.photo1.url} alt="" className='rounded-full lg:w-16  w-full h-16'
                                                     />
                                             </div>
-                                        </div> */}/
-                                                            <div className="w-[15%] lg:w-[35%] flex justify-center lg:pr-5 items-center">
+                                        </div> */}
+                                                            <div className="w-26 lg:w-[35%] flex justify-center lg:pr-5 items-center">
                                                                     <div className="rounded-full w-full text-center">
                                                                     <img
                                                                         src={data.photo1.url}
