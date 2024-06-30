@@ -129,13 +129,22 @@ function AddUser({ isOpen, onClose }) {
                                 </div> :
                                 users?.map((data) => {
                             return <div className=' flex mb-5 h-20  bg-slate-200 p-2 rounded-md hover:bg-slate-300 ' >
-                                        <div className='w-[15%] lg:w-[35%]  flex justify-center lg:pr-5 items-center'>
+                                        {/* <div className='w-[15%] lg:w-[35%]  flex justify-center lg:pr-5 items-center'>
                                             <div className='rounded-full  w-20 text-center  '>
                                                 
                                                 <img src={data.photo1.url} alt="" className='rounded-full lg:w-16  w-full h-16'
                                                     />
                                             </div>
-                                        </div>
+                                        </div> */}/
+                                                            <div className="w-[15%] lg:w-[35%] flex justify-center lg:pr-5 items-center">
+                                                                    <div className="rounded-full w-20 text-center">
+                                                                    <img
+                                                                        src={data.photo1.url}
+                                                                        alt=""
+                                                                        className="rounded-full lg:w-16 w-full h-16 object-cover"
+                                                                    />
+                                                                    </div>
+                                                                </div>
                                         <div className='w-[60%] h-full '>
                                             <div className='h-full w-full text-lg pl-5 lg:ml-[-70px] lg:text-xl  flex items-center font-poppins '>{ data.name}</div>
                                         </div>
