@@ -137,7 +137,7 @@ function AddUser({ isOpen, onClose }) {
                                             </div>
                                         </div> */}/
                                                             <div className="w-[15%] lg:w-[35%] flex justify-center lg:pr-5 items-center">
-                                                                    <div className="rounded-full w-20 text-center">
+                                                                    <div className="rounded-full w-full text-center">
                                                                     <img
                                                                         src={data.photo1.url}
                                                                         alt=""
